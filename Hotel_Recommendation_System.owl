@@ -1,0 +1,591 @@
+Prefix(:=<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/>
+
+Declaration(Class(:Area))
+Declaration(Class(:City))
+Declaration(Class(:Country))
+Declaration(Class(:GeographicEntity))
+Declaration(Class(:Image))
+Declaration(Class(:Location))
+Declaration(Class(:Page))
+Declaration(Class(:Property))
+Declaration(Class(:PropertyHighlights))
+Declaration(Class(:Resource))
+Declaration(Class(:ReviewAndRating))
+Declaration(Class(:RoomType))
+Declaration(Class(:Site))
+Declaration(Class(:SiteCrawl))
+Declaration(Class(:State))
+Declaration(Class(:TravellerType))
+Declaration(ObjectProperty(:asscociatedSite))
+Declaration(ObjectProperty(:hasArea))
+Declaration(ObjectProperty(:hasCity))
+Declaration(ObjectProperty(:hasCrawled))
+Declaration(ObjectProperty(:hasHighlights))
+Declaration(ObjectProperty(:hasReviewAndRating))
+Declaration(ObjectProperty(:hasRoomType))
+Declaration(ObjectProperty(:hasState))
+Declaration(ObjectProperty(:hasTravellers))
+Declaration(ObjectProperty(:imageInfo))
+Declaration(ObjectProperty(:isLocatedAt))
+Declaration(ObjectProperty(:moreInfo))
+Declaration(ObjectProperty(:pageInfo))
+Declaration(ObjectProperty(:situatedIn))
+Declaration(ObjectProperty(:situatedInArea))
+Declaration(ObjectProperty(:situatedInCity))
+Declaration(ObjectProperty(:situatedInCountry))
+Declaration(ObjectProperty(:situatedInState))
+Declaration(DataProperty(:areaName))
+Declaration(DataProperty(:cityName))
+Declaration(DataProperty(:countryName))
+Declaration(DataProperty(:crawlDate))
+Declaration(DataProperty(:hasCount))
+Declaration(DataProperty(:hasImageUrl))
+Declaration(DataProperty(:hasLatitude))
+Declaration(DataProperty(:hasLongitude))
+Declaration(DataProperty(:hasPageUrl))
+Declaration(DataProperty(:highlightOverview))
+Declaration(DataProperty(:highlightValue))
+Declaration(DataProperty(:holdiayReviewCount))
+Declaration(DataProperty(:isValuePlus))
+Declaration(DataProperty(:locationRating))
+Declaration(DataProperty(:propertyAddress))
+Declaration(DataProperty(:propertyId))
+Declaration(DataProperty(:propertyName))
+Declaration(DataProperty(:propertyType))
+Declaration(DataProperty(:qts))
+Declaration(DataProperty(:queryTimeStamp))
+Declaration(DataProperty(:reviewCount))
+Declaration(DataProperty(:reviewRating))
+Declaration(DataProperty(:reviewScore))
+Declaration(DataProperty(:roomAccessories))
+Declaration(DataProperty(:siteName))
+Declaration(DataProperty(:siteReviewCount))
+Declaration(DataProperty(:siteReviewRating))
+Declaration(DataProperty(:starRating))
+Declaration(DataProperty(:stateName))
+Declaration(DataProperty(:travellerRating))
+Declaration(DataProperty(:tripAdvisorCount))
+Declaration(DataProperty(:uniqId))
+Declaration(NamedIndividual(:business))
+Declaration(NamedIndividual(:couples))
+Declaration(NamedIndividual(:dabok))
+Declaration(NamedIndividual(:families))
+Declaration(NamedIndividual(:friends))
+Declaration(NamedIndividual(:highlights))
+Declaration(NamedIndividual(:hotel_1))
+Declaration(NamedIndividual(:imageResource))
+Declaration(NamedIndividual(:india))
+Declaration(NamedIndividual(:location))
+Declaration(NamedIndividual(:mmt))
+Declaration(NamedIndividual(:mmtCrawl))
+Declaration(NamedIndividual(:mmtReviewAndRating))
+Declaration(NamedIndividual(:pageResource))
+Declaration(NamedIndividual(:rajasthan))
+Declaration(NamedIndividual(:solo))
+Declaration(NamedIndividual(:standardRoom))
+Declaration(NamedIndividual(:udaipur))
+Declaration(AnnotationProperty(<http://ainf.aau.at/ontodebug#axiom>))
+Declaration(AnnotationProperty(<http://ainf.aau.at/ontodebug#testCase>))
+Declaration(AnnotationProperty(<http://ainf.aau.at/ontodebug#type>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://ainf.aau.at/ontodebug#axiom> (<http://ainf.aau.at/ontodebug#axiom>)
+
+SubAnnotationPropertyOf(<http://ainf.aau.at/ontodebug#axiom> <http://ainf.aau.at/ontodebug#testCase>)
+
+# Annotation Property: <http://ainf.aau.at/ontodebug#type> (<http://ainf.aau.at/ontodebug#type>)
+
+SubAnnotationPropertyOf(<http://ainf.aau.at/ontodebug#type> <http://ainf.aau.at/ontodebug#testCase>)
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :asscociatedSite (:asscociatedSite)
+
+ObjectPropertyDomain(:asscociatedSite :Property)
+ObjectPropertyRange(:asscociatedSite :Site)
+
+# Object Property: :hasArea (:hasArea)
+
+ObjectPropertyDomain(:hasArea :City)
+ObjectPropertyRange(:hasArea :Area)
+
+# Object Property: :hasCity (:hasCity)
+
+ObjectPropertyDomain(:hasCity :State)
+ObjectPropertyRange(:hasCity :City)
+
+# Object Property: :hasCrawled (:hasCrawled)
+
+ObjectPropertyDomain(:hasCrawled :Site)
+ObjectPropertyRange(:hasCrawled :SiteCrawl)
+
+# Object Property: :hasHighlights (:hasHighlights)
+
+ObjectPropertyDomain(:hasHighlights :Property)
+ObjectPropertyRange(:hasHighlights :PropertyHighlights)
+
+# Object Property: :hasReviewAndRating (:hasReviewAndRating)
+
+ObjectPropertyDomain(:hasReviewAndRating :Site)
+ObjectPropertyRange(:hasReviewAndRating :ReviewAndRating)
+
+# Object Property: :hasRoomType (:hasRoomType)
+
+ObjectPropertyDomain(:hasRoomType :Property)
+ObjectPropertyRange(:hasRoomType :RoomType)
+
+# Object Property: :hasState (:hasState)
+
+ObjectPropertyDomain(:hasState :Country)
+ObjectPropertyRange(:hasState :State)
+
+# Object Property: :hasTravellers (:hasTravellers)
+
+ObjectPropertyDomain(:hasTravellers :Property)
+ObjectPropertyRange(:hasTravellers :TravellerType)
+
+# Object Property: :imageInfo (:imageInfo)
+
+SubObjectPropertyOf(:imageInfo :moreInfo)
+ObjectPropertyDomain(:imageInfo :Property)
+ObjectPropertyRange(:imageInfo :Image)
+
+# Object Property: :isLocatedAt (:isLocatedAt)
+
+ObjectPropertyDomain(:isLocatedAt :Property)
+ObjectPropertyRange(:isLocatedAt :Location)
+
+# Object Property: :moreInfo (:moreInfo)
+
+ObjectPropertyDomain(:moreInfo :Property)
+ObjectPropertyRange(:moreInfo :Resource)
+
+# Object Property: :pageInfo (:pageInfo)
+
+SubObjectPropertyOf(:pageInfo :moreInfo)
+ObjectPropertyDomain(:pageInfo :Property)
+ObjectPropertyRange(:pageInfo :Page)
+
+# Object Property: :situatedIn (:situatedIn)
+
+ObjectPropertyDomain(:situatedIn :Property)
+ObjectPropertyRange(:situatedIn :GeographicEntity)
+
+# Object Property: :situatedInArea (:situatedInArea)
+
+SubObjectPropertyOf(:situatedInArea :situatedIn)
+ObjectPropertyDomain(:situatedInArea :Property)
+ObjectPropertyRange(:situatedInArea :Area)
+
+# Object Property: :situatedInCity (:situatedInCity)
+
+SubObjectPropertyOf(:situatedInCity :situatedIn)
+ObjectPropertyDomain(:situatedInCity :Property)
+ObjectPropertyRange(:situatedInCity :City)
+
+# Object Property: :situatedInCountry (:situatedInCountry)
+
+SubObjectPropertyOf(:situatedInCountry :situatedIn)
+ObjectPropertyDomain(:situatedInCountry :Property)
+ObjectPropertyRange(:situatedInCountry :Country)
+
+# Object Property: :situatedInState (:situatedInState)
+
+SubObjectPropertyOf(:situatedInState :situatedIn)
+ObjectPropertyDomain(:situatedInState :Property)
+ObjectPropertyRange(:situatedInState :State)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :areaName (:areaName)
+
+DataPropertyDomain(:areaName :Area)
+DataPropertyRange(:areaName xsd:string)
+
+# Data Property: :cityName (:cityName)
+
+DataPropertyDomain(:cityName :City)
+DataPropertyRange(:cityName xsd:string)
+
+# Data Property: :countryName (:countryName)
+
+DataPropertyDomain(:countryName :Country)
+DataPropertyRange(:countryName xsd:string)
+
+# Data Property: :crawlDate (:crawlDate)
+
+DataPropertyDomain(:crawlDate :SiteCrawl)
+DataPropertyRange(:crawlDate xsd:string)
+
+# Data Property: :hasCount (:hasCount)
+
+DataPropertyDomain(:hasCount :TravellerType)
+DataPropertyRange(:hasCount xsd:positiveInteger)
+
+# Data Property: :hasImageUrl (:hasImageUrl)
+
+DataPropertyDomain(:hasImageUrl :Image)
+DataPropertyRange(:hasImageUrl xsd:anyURI)
+
+# Data Property: :hasLatitude (:hasLatitude)
+
+DataPropertyDomain(:hasLatitude :Location)
+DataPropertyRange(:hasLatitude xsd:double)
+
+# Data Property: :hasLongitude (:hasLongitude)
+
+DataPropertyDomain(:hasLongitude :Location)
+DataPropertyRange(:hasLongitude xsd:double)
+
+# Data Property: :hasPageUrl (:hasPageUrl)
+
+DataPropertyDomain(:hasPageUrl :Page)
+DataPropertyRange(:hasPageUrl xsd:anyURI)
+
+# Data Property: :highlightOverview (:highlightOverview)
+
+DataPropertyDomain(:highlightOverview :PropertyHighlights)
+DataPropertyRange(:highlightOverview xsd:string)
+
+# Data Property: :highlightValue (:highlightValue)
+
+DataPropertyDomain(:highlightValue :PropertyHighlights)
+DataPropertyRange(:highlightValue xsd:string)
+
+# Data Property: :holdiayReviewCount (:holdiayReviewCount)
+
+DataPropertyDomain(:holdiayReviewCount :ReviewAndRating)
+DataPropertyRange(:holdiayReviewCount xsd:string)
+
+# Data Property: :isValuePlus (:isValuePlus)
+
+DataPropertyDomain(:isValuePlus :PropertyHighlights)
+DataPropertyRange(:isValuePlus DataOneOf("no" "yes"))
+
+# Data Property: :locationRating (:locationRating)
+
+DataPropertyDomain(:locationRating :ReviewAndRating)
+DataPropertyRange(:locationRating xsd:decimal)
+
+# Data Property: :propertyAddress (:propertyAddress)
+
+DataPropertyDomain(:propertyAddress :Property)
+DataPropertyRange(:propertyAddress xsd:string)
+
+# Data Property: :propertyId (:propertyId)
+
+FunctionalDataProperty(:propertyId)
+DataPropertyDomain(:propertyId :Property)
+DataPropertyRange(:propertyId xsd:unsignedLong)
+
+# Data Property: :propertyName (:propertyName)
+
+DataPropertyDomain(:propertyName :Property)
+DataPropertyRange(:propertyName xsd:string)
+
+# Data Property: :propertyType (:propertyType)
+
+DataPropertyDomain(:propertyType :Property)
+DataPropertyRange(:propertyType xsd:string)
+
+# Data Property: :qts (:qts)
+
+EquivalentDataProperties(:qts :queryTimeStamp)
+DataPropertyDomain(:qts :SiteCrawl)
+DataPropertyRange(:qts xsd:string)
+
+# Data Property: :queryTimeStamp (:queryTimeStamp)
+
+DataPropertyDomain(:queryTimeStamp :SiteCrawl)
+DataPropertyRange(:queryTimeStamp xsd:string)
+
+# Data Property: :reviewCount (:reviewCount)
+
+DataPropertyDomain(:reviewCount :ReviewAndRating)
+DataPropertyRange(:reviewCount xsd:positiveInteger)
+
+# Data Property: :reviewRating (:reviewRating)
+
+DataPropertyDomain(:reviewRating :ReviewAndRating)
+DataPropertyRange(:reviewRating xsd:decimal)
+
+# Data Property: :reviewScore (:reviewScore)
+
+DataPropertyDomain(:reviewScore :ReviewAndRating)
+DataPropertyRange(:reviewScore xsd:positiveInteger)
+
+# Data Property: :roomAccessories (:roomAccessories)
+
+DataPropertyDomain(:roomAccessories :PropertyHighlights)
+DataPropertyRange(:roomAccessories xsd:string)
+
+# Data Property: :siteName (:siteName)
+
+DataPropertyDomain(:siteName :Site)
+DataPropertyRange(:siteName xsd:string)
+
+# Data Property: :siteReviewCount (:siteReviewCount)
+
+DataPropertyDomain(:siteReviewCount :Site)
+DataPropertyRange(:siteReviewCount xsd:string)
+
+# Data Property: :siteReviewRating (:siteReviewRating)
+
+DataPropertyDomain(:siteReviewRating :Site)
+DataPropertyRange(:siteReviewRating xsd:string)
+
+# Data Property: :starRating (:starRating)
+
+DataPropertyDomain(:starRating :PropertyHighlights)
+DataPropertyRange(:starRating DataOneOf("1" "1 star" "2" "2 star" "3" "3 star" "4" "4 star" "5" "5 star"))
+
+# Data Property: :stateName (:stateName)
+
+DataPropertyDomain(:stateName :State)
+DataPropertyRange(:stateName xsd:string)
+
+# Data Property: :travellerRating (:travellerRating)
+
+DataPropertyDomain(:travellerRating :PropertyHighlights)
+DataPropertyRange(:travellerRating xsd:string)
+
+# Data Property: :tripAdvisorCount (:tripAdvisorCount)
+
+DataPropertyDomain(:tripAdvisorCount :ReviewAndRating)
+DataPropertyRange(:tripAdvisorCount xsd:positiveInteger)
+
+# Data Property: :uniqId (:uniqId)
+
+FunctionalDataProperty(:uniqId)
+DataPropertyDomain(:uniqId :Property)
+DataPropertyRange(:uniqId xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :Area (:Area)
+
+SubClassOf(:Area :GeographicEntity)
+
+# Class: :City (:City)
+
+SubClassOf(:City :GeographicEntity)
+SubClassOf(:City ObjectSomeValuesFrom(:hasArea :Area))
+
+# Class: :Country (:Country)
+
+SubClassOf(:Country :GeographicEntity)
+SubClassOf(:Country ObjectSomeValuesFrom(:hasState :State))
+
+# Class: :GeographicEntity (:GeographicEntity)
+
+DisjointUnion(:GeographicEntity :Area :City :Country :State)
+
+# Class: :Image (:Image)
+
+SubClassOf(:Image :Resource)
+DisjointClasses(:Image :Page)
+
+# Class: :Location (:Location)
+
+SubClassOf(:Location DataSomeValuesFrom(:hasLatitude xsd:double))
+SubClassOf(:Location DataSomeValuesFrom(:hasLongitude xsd:double))
+SubClassOf(:Location DataExactCardinality(1 :hasLatitude xsd:double))
+SubClassOf(:Location DataExactCardinality(1 :hasLongitude xsd:double))
+
+# Class: :Page (:Page)
+
+SubClassOf(:Page :Resource)
+
+# Class: :Property (:Property)
+
+SubClassOf(:Property ObjectSomeValuesFrom(:isLocatedAt :Location))
+SubClassOf(:Property ObjectSomeValuesFrom(:situatedInCountry :Country))
+SubClassOf(:Property DataSomeValuesFrom(:uniqId xsd:string))
+SubClassOf(:Property DataExactCardinality(1 :uniqId xsd:string))
+
+# Class: :PropertyHighlights (:PropertyHighlights)
+
+
+# Class: :Resource (:Resource)
+
+DisjointUnion(:Resource :Image :Page)
+
+# Class: :ReviewAndRating (:ReviewAndRating)
+
+
+# Class: :RoomType (:RoomType)
+
+
+# Class: :Site (:Site)
+
+
+# Class: :SiteCrawl (:SiteCrawl)
+
+
+# Class: :State (:State)
+
+SubClassOf(:State :GeographicEntity)
+SubClassOf(:State ObjectSomeValuesFrom(:hasCity :City))
+
+# Class: :TravellerType (:TravellerType)
+
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :business (:business)
+
+ClassAssertion(:TravellerType :business)
+
+# Individual: :couples (:couples)
+
+ClassAssertion(:TravellerType :couples)
+
+# Individual: :dabok (:dabok)
+
+ClassAssertion(:Area :dabok)
+DataPropertyAssertion(:areaName :dabok "Dabok"^^xsd:string)
+
+# Individual: :families (:families)
+
+ClassAssertion(:TravellerType :families)
+
+# Individual: :friends (:friends)
+
+ClassAssertion(:TravellerType :friends)
+
+# Individual: :highlights (:highlights)
+
+ClassAssertion(:PropertyHighlights :highlights)
+DataPropertyAssertion(:highlightOverview :highlights "|SNP House Airport Hotel And Restaurant is loacted in Udaipur and is 5.1 km from Maharana Pratap Airport, 14.8 km from Rana Pratapnagar Railway Station and 19.5 km from Chitrakot Nagar Bus Stand."^^xsd:string)
+DataPropertyAssertion(:highlightValue :highlights "Airport Transfer|Car rental|Conference Hall|Currency Exchange|Doctor on Call|Dry Cleaning|Guide Service|Internet access|Jungle Safari|Laundry Service|Restaurant|Room Service|Wi-Fi Internet"^^xsd:string)
+DataPropertyAssertion(:isValuePlus :highlights "no")
+DataPropertyAssertion(:starRating :highlights "1 star")
+
+# Individual: :hotel_1 (:hotel_1)
+
+ClassAssertion(:Property :hotel_1)
+ObjectPropertyAssertion(:asscociatedSite :hotel_1 :mmt)
+ObjectPropertyAssertion(:hasHighlights :hotel_1 :highlights)
+ObjectPropertyAssertion(:hasRoomType :hotel_1 :standardRoom)
+ObjectPropertyAssertion(:hasTravellers :hotel_1 :business)
+ObjectPropertyAssertion(:hasTravellers :hotel_1 :couples)
+ObjectPropertyAssertion(:hasTravellers :hotel_1 :families)
+ObjectPropertyAssertion(:hasTravellers :hotel_1 :solo)
+ObjectPropertyAssertion(:imageInfo :hotel_1 :imageResource)
+ObjectPropertyAssertion(:isLocatedAt :hotel_1 :location)
+ObjectPropertyAssertion(:pageInfo :hotel_1 :pageResource)
+ObjectPropertyAssertion(:situatedInArea :hotel_1 :dabok)
+ObjectPropertyAssertion(:situatedInCity :hotel_1 :udaipur)
+ObjectPropertyAssertion(:situatedInCountry :hotel_1 :india)
+ObjectPropertyAssertion(:situatedInState :hotel_1 :rajasthan)
+DataPropertyAssertion(:propertyAddress :hotel_1 "Opp GITS, NH-76, Bamaniya Khet, Dabok , Dabok"^^xsd:string)
+DataPropertyAssertion(:propertyId :hotel_1 "201407181538181173"^^xsd:unsignedLong)
+DataPropertyAssertion(:propertyName :hotel_1 "SNP House Airport Hotel And Restaurant"^^xsd:string)
+DataPropertyAssertion(:propertyType :hotel_1 "Hotel"^^xsd:string)
+DataPropertyAssertion(:uniqId :hotel_1 "e6f5bb3c2d76a78d978b9ceb0e31ec56"^^xsd:string)
+
+# Individual: :imageResource (:imageResource)
+
+ClassAssertion(:Image :imageResource)
+DataPropertyAssertion(:hasImageUrl :imageResource "//imghtlak.mmtcdn.com/images/hotels/201407181538181173/DSC01359.jpg"^^xsd:anyURI)
+DataPropertyAssertion(:hasImageUrl :imageResource "//imghtlak.mmtcdn.com/images/hotels/201407181538181173/Exterior.jpg"^^xsd:anyURI)
+DataPropertyAssertion(:hasImageUrl :imageResource "//imghtlak.mmtcdn.com/images/hotels/201407181538181173/Exterior1"^^xsd:anyURI)
+
+# Individual: :india (:india)
+
+ClassAssertion(:Country :india)
+ObjectPropertyAssertion(:hasState :india :rajasthan)
+DataPropertyAssertion(:countryName :india "India"^^xsd:string)
+
+# Individual: :location (:location)
+
+ClassAssertion(:Location :location)
+DataPropertyAssertion(:hasLatitude :location "24.622607"^^xsd:double)
+DataPropertyAssertion(:hasLongitude :location "73.855194"^^xsd:double)
+
+# Individual: :mmt (:mmt)
+
+ClassAssertion(:Site :mmt)
+ObjectPropertyAssertion(:hasCrawled :mmt :mmtCrawl)
+ObjectPropertyAssertion(:hasReviewAndRating :mmt :mmtReviewAndRating)
+DataPropertyAssertion(:siteName :mmt "makemytrip"^^xsd:string)
+DataPropertyAssertion(:siteReviewCount :mmt "/5"^^xsd:string)
+
+# Individual: :mmtCrawl (:mmtCrawl)
+
+ClassAssertion(:SiteCrawl :mmtCrawl)
+DataPropertyAssertion(:crawlDate :mmtCrawl "2016-06-21"^^xsd:string)
+DataPropertyAssertion(:queryTimeStamp :mmtCrawl "2016-06-21 04:06:50 +0000"^^xsd:string)
+
+# Individual: :mmtReviewAndRating (:mmtReviewAndRating)
+
+ClassAssertion(:ReviewAndRating :mmtReviewAndRating)
+DataPropertyAssertion(:holdiayReviewCount :mmtReviewAndRating "0"^^xsd:string)
+DataPropertyAssertion(:tripAdvisorCount :mmtReviewAndRating "3"^^xsd:positiveInteger)
+
+# Individual: :pageResource (:pageResource)
+
+ClassAssertion(:Page :pageResource)
+DataPropertyAssertion(:hasPageUrl :pageResource "http://hotelz.makemytrip.com/makemytrip/site/hotels/detail?&city=UDR&country=IN&checkin=07192016&checkout=07202016&area=&roomStayQualifier=1e0e&hotelId=201407181538181173&i="^^xsd:anyURI)
+
+# Individual: :rajasthan (:rajasthan)
+
+ClassAssertion(:State :rajasthan)
+ObjectPropertyAssertion(:hasCity :rajasthan :udaipur)
+DataPropertyAssertion(:stateName :rajasthan "Rajasthan"^^xsd:string)
+
+# Individual: :solo (:solo)
+
+ClassAssertion(:TravellerType :solo)
+
+# Individual: :standardRoom (:standardRoom)
+
+ClassAssertion(:RoomType :standardRoom)
+
+# Individual: :udaipur (:udaipur)
+
+ClassAssertion(:City :udaipur)
+ObjectPropertyAssertion(:hasArea :udaipur :dabok)
+DataPropertyAssertion(:cityName :udaipur "Udaipur"^^xsd:string)
+
+
+DisjointClasses(:Area :City :Country :State)
+DisjointClasses(:GeographicEntity :Location :Property :PropertyHighlights :Resource :ReviewAndRating :RoomType :Site :SiteCrawl :TravellerType)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#axiom> _:genid2147483652 "Country DisjointWith Property"^^xsd:string)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#type> _:genid2147483652 "true"^^xsd:boolean)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#axiom> _:genid2147483653 "situatedInCountry Range Country"^^xsd:string)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#type> _:genid2147483653 "true"^^xsd:boolean)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#axiom> _:genid2147483654 "Country SubClassOf GeographicEntity"^^xsd:string)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#type> _:genid2147483654 "true"^^xsd:boolean)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#axiom> _:genid2147483655 "india Type Country"^^xsd:string)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#type> _:genid2147483655 "true"^^xsd:boolean)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#axiom> _:genid2147483656 "Country DisjointWith State"^^xsd:string)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#type> _:genid2147483656 "true"^^xsd:boolean)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#axiom> _:genid2147483657 "india Type Country"^^xsd:string)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#type> _:genid2147483657 "true"^^xsd:boolean)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#axiom> _:genid2147483658 "stateName Domain State"^^xsd:string)
+AnnotationAssertion(<http://ainf.aau.at/ontodebug#type> _:genid2147483658 "true"^^xsd:boolean)
+)
