@@ -1,0 +1,912 @@
+@prefix ex: <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#284> a ex:property ;
+	ex:propertyName "The Oberoi Amarvilas" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#284> .
+
+ex:Agra a ex:city ;
+	ex:cityName "Agra" ;
+	ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#284> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#334> a ex:property ;
+	ex:propertyName "Hotel Alleviate" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#334> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#334> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#2409> a ex:property ;
+	ex:propertyName "The Oberoi Amarvilas" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#2409> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#2409> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#2459> a ex:property ;
+	ex:propertyName "Hotel Alleviate" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#2459> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#2459> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#7299> a ex:property ;
+	ex:propertyName "Dazzle Hotel" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#7299> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#7299> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8002> a ex:property ;
+	ex:propertyName "Hotel Sita Ram" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8002> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8002> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8008> a ex:property ;
+	ex:propertyName "Amar Yatri Niwas" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8008> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8008> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8009> a ex:property ;
+	ex:propertyName "Hotel Moti Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8009> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8009> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8012> a ex:property ;
+	ex:propertyName "Hotel Garden View Resort" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8012> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8012> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8016> a ex:property ;
+	ex:propertyName "Aicon Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8016> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8016> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8031> a ex:property ;
+	ex:propertyName "Taj Haveli" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8031> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8031> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8036> a ex:property ;
+	ex:propertyName "Hotel Taj Resort" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8036> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8036> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8037> a ex:property ;
+	ex:propertyName "Hotel Alpine" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8037> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8037> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8051> a ex:property ;
+	ex:propertyName "Dolphin Home Stay" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8051> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8051> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8054> a ex:property ;
+	ex:propertyName "Siris 18" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8054> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8054> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8056> a ex:property ;
+	ex:propertyName "FabHotel Taj Mahal" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8056> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8056> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8843> a ex:property ;
+	ex:propertyName "Blue Sapphire Hotel" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8843> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8843> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8859> a ex:property ;
+	ex:propertyName "Hotel Shyam Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8859> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8859> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8868> a ex:property ;
+	ex:propertyName "The Pearl of Taj" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8868> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8868> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8879> a ex:property ;
+	ex:propertyName "Hotel Riya Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8879> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8879> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8905> a ex:property ;
+	ex:propertyName "Hotel Love Kush" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8905> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8905> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8924> a ex:property ;
+	ex:propertyName "Hotel Shahjahan" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8924> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8924> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9538> a ex:property ;
+	ex:propertyName "Hotel Green Dlx" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9538> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9538> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9540> a ex:property ;
+	ex:propertyName "Hotel Pentas" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9540> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9540> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9546> a ex:property ;
+	ex:propertyName "Indian Homestay Agra" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9546> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9546> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9557> a ex:property ;
+	ex:propertyName "Taj Haveli" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9557> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9557> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9558> a ex:property ;
+	ex:propertyName "Mayur Tourist Complex" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9558> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9558> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9563> a ex:property ;
+	ex:propertyName "Sheela Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9563> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9563> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9572> a ex:property ;
+	ex:propertyName "BHASIN LODGE" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9572> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9572> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9574> a ex:property ;
+	ex:propertyName "Radisson Blu Agra Taj East Gate" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9574> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9574> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9586> a ex:property ;
+	ex:propertyName "Hotel Mansingh Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9586> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9586> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9620> a ex:property ;
+	ex:propertyName "Big Brother Hostel" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9620> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9620> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9624> a ex:property ;
+	ex:propertyName "Hotel Mansarover Muskan" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9624> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9624> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9625> a ex:property ;
+	ex:propertyName "Hotel Neelkanth" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9625> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9625> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9628> a ex:property ;
+	ex:propertyName "Hotel Mumtaz Villa" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9628> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9628> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9633> a ex:property ;
+	ex:propertyName "Hotel Aasha Deep" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9633> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9633> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9634> a ex:property ;
+	ex:propertyName "Hotel T9 Residency" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9634> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#9634> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11515> a ex:property ;
+	ex:propertyName "Hotel Red Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11515> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11515> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11535> a ex:property ;
+	ex:propertyName "Hotel Panchratan" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11535> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11535> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11536> a ex:property ;
+	ex:propertyName "Hotel Crystal Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11536> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11536> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11537> a ex:property ;
+	ex:propertyName "Hotel White Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11537> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11537> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11548> a ex:property ;
+	ex:propertyName "Hotel Sagar" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11548> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11548> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11549> a ex:property ;
+	ex:propertyName "Hotel Shyam Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11549> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11549> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11555> a ex:property ;
+	ex:propertyName "Hotel Panna Paradise" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11555> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11555> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11559> a ex:property ;
+	ex:propertyName "Hotel Mansarover Muskan" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11559> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11559> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11562> a ex:property ;
+	ex:propertyName "Hotel Anand Villa" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11562> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11562> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11586> a ex:property ;
+	ex:propertyName "Hotel Amba Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11586> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11586> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11600> a ex:property ;
+	ex:propertyName "Hotel Avalon Taj" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11600> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11600> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11606> a ex:property ;
+	ex:propertyName "Hotel Ashok Palace Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11606> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11606> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11615> a ex:property ;
+	ex:propertyName "Hotel Garden View Resort" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11615> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#11615> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13882> a ex:property ;
+	ex:propertyName "Siris 18" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13882> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13882> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13895> a ex:property ;
+	ex:propertyName "Hotel City Square and Suites" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13895> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13895> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13899> a ex:property ;
+	ex:propertyName "Hotel Moti Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13899> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13899> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13900> a ex:property ;
+	ex:propertyName "Hotel Garden View Resort" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13900> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13900> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13910> a ex:property ;
+	ex:propertyName "Dolphin Home Stay" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13910> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13910> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13912> a ex:property ;
+	ex:propertyName "Hotel Om Sai Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13912> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13912> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13929> a ex:property ;
+	ex:propertyName "Hotel Madhu Resort" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13929> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13929> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13930> a ex:property ;
+	ex:propertyName "Hotel Sukoon Homestay" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13930> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13930> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13938> a ex:property ;
+	ex:propertyName "Hotel Jyoti Continental" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13938> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13938> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13950> a ex:property ;
+	ex:propertyName "Hotel Mansarover Muskan" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13950> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13950> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13964> a ex:property ;
+	ex:propertyName "Hotel Navya Mansion" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13964> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13964> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13986> a ex:property ;
+	ex:propertyName "Hotel Rashmi" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13986> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13986> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13988> a ex:property ;
+	ex:propertyName "Hotel The Light House" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13988> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#13988> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#14005> a ex:property ;
+	ex:propertyName "Hotel Sai President" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#14005> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#14005> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#14016> a ex:property ;
+	ex:propertyName "Hotel The Kamta" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#14016> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#14016> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#14025> a ex:property ;
+	ex:propertyName "Big Brother Hostel" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#14025> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#14025> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#14031> a ex:property ;
+	ex:propertyName "Hotel Prashant Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#14031> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#14031> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#14046> a ex:property ;
+	ex:propertyName "Hotel Delux Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#14046> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#14046> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#14075> a ex:property ;
+	ex:propertyName "The Bharat Guest HOuse" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#14075> .
+
+ex:Agra ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#14075> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#318> a ex:property ;
+	ex:propertyName "Hotel Sagar Residency" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#318> .
+
+ex:Ahmedabad a ex:city ;
+	ex:cityName "Ahmedabad" ;
+	ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#318> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#331> a ex:property ;
+	ex:propertyName "Parker Lords Eco Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#331> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#331> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#343> a ex:property ;
+	ex:propertyName "Hotel  Signature Anand Nagar" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#343> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#343> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1293> a ex:property ;
+	ex:propertyName "Hotel Radhika Palace Juna Vadaj" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1293> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1293> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1301> a ex:property ;
+	ex:propertyName "Hotel Shailly Inn Dormitory" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1301> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1301> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1308> a ex:property ;
+	ex:propertyName "Hotel Royal" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1308> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1308> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1310> a ex:property ;
+	ex:propertyName "Hotel Royal Plaza" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1310> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1310> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1315> a ex:property ;
+	ex:propertyName "Sarovar Portico - Ahmedabad" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1315> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1315> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1319> a ex:property ;
+	ex:propertyName "Aloft Ahmedabad" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1319> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1319> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1332> a ex:property ;
+	ex:propertyName "Parker Lords Eco Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1332> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1332> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1337> a ex:property ;
+	ex:propertyName "Spectrum Aathithya Bunglow Vastrapur" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1337> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1337> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1340> a ex:property ;
+	ex:propertyName "Hotel Marshall" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1340> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1340> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1344> a ex:property ;
+	ex:propertyName "Club O7 Service Apartment" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1344> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1344> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1353> a ex:property ;
+	ex:propertyName "The Westend" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1353> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1353> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1360> a ex:property ;
+	ex:propertyName "Hotel Gokul" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1360> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1360> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1364> a ex:property ;
+	ex:propertyName "Hotel Palm Greens Club" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1364> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1364> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1374> a ex:property ;
+	ex:propertyName "Hotel Kanchan Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1374> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1374> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1377> a ex:property ;
+	ex:propertyName "HYATT REGENCY AHMEDABAD" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1377> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1377> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1378> a ex:property ;
+	ex:propertyName "Hotel Deep Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1378> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1378> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1379> a ex:property ;
+	ex:propertyName "Hotel Scenaria" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1379> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1379> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1380> a ex:property ;
+	ex:propertyName "Ginger Hotel - Ahmedabad" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1380> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1380> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1393> a ex:property ;
+	ex:propertyName "Hotel Vibrant Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1393> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1393> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1398> a ex:property ;
+	ex:propertyName "Hotel Peace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1398> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1398> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1400> a ex:property ;
+	ex:propertyName "Hotel Akshar" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1400> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1400> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1403> a ex:property ;
+	ex:propertyName "Hotel Sai Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1403> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1403> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1405> a ex:property ;
+	ex:propertyName "Hotel Salute" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1405> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1405> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1423> a ex:property ;
+	ex:propertyName "Grand O7 Suites and Convention" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1423> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1423> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1424> a ex:property ;
+	ex:propertyName "Hotel Galaxy Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1424> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1424> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1430> a ex:property ;
+	ex:propertyName "Hotel Neelkanth Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1430> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1430> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1431> a ex:property ;
+	ex:propertyName "Spectrum Aathithya Bunglow C G ROAD" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1431> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1431> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1439> a ex:property ;
+	ex:propertyName "Lemon Tree Premier The Atrium Ahmedabad" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1439> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1439> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1445> a ex:property ;
+	ex:propertyName "Spectrum Aathithya Apartment S G HIGHWAY 3" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1445> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1445> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1451> a ex:property ;
+	ex:propertyName "Gayatri Guest House" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1451> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1451> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1456> a ex:property ;
+	ex:propertyName "HOTEL ASHADEEP" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1456> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1456> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1460> a ex:property ;
+	ex:propertyName "Hotel Sagar Residency" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1460> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1460> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#1466> a ex:property ;
+	ex:propertyName "Rohini Service Apartment" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1466> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#1466> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#2443> a ex:property ;
+	ex:propertyName "Hotel Sagar Residency" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#2443> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#2443> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#2456> a ex:property ;
+	ex:propertyName "Parker Lords Eco Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#2456> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#2456> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#2468> a ex:property ;
+	ex:propertyName "Hotel  Signature Anand Nagar" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#2468> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#2468> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3418> a ex:property ;
+	ex:propertyName "Hotel Radhika Palace Juna Vadaj" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3418> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3418> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3426> a ex:property ;
+	ex:propertyName "Hotel Shailly Inn Dormitory" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3426> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3426> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3433> a ex:property ;
+	ex:propertyName "Hotel Royal" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3433> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3433> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3435> a ex:property ;
+	ex:propertyName "Hotel Royal Plaza" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3435> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3435> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3440> a ex:property ;
+	ex:propertyName "Sarovar Portico - Ahmedabad" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3440> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3440> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3444> a ex:property ;
+	ex:propertyName "Aloft Ahmedabad" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3444> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3444> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3457> a ex:property ;
+	ex:propertyName "Parker Lords Eco Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3457> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3457> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3462> a ex:property ;
+	ex:propertyName "Spectrum Aathithya Bunglow Vastrapur" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3462> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3462> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3465> a ex:property ;
+	ex:propertyName "Hotel Marshall" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3465> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3465> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3469> a ex:property ;
+	ex:propertyName "Club O7 Service Apartment" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3469> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3469> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3478> a ex:property ;
+	ex:propertyName "The Westend" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3478> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3478> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3485> a ex:property ;
+	ex:propertyName "Hotel Gokul" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3485> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3485> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3489> a ex:property ;
+	ex:propertyName "Hotel Palm Greens Club" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3489> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3489> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3499> a ex:property ;
+	ex:propertyName "Hotel Kanchan Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3499> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3499> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3502> a ex:property ;
+	ex:propertyName "HYATT REGENCY AHMEDABAD" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3502> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3502> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3503> a ex:property ;
+	ex:propertyName "Hotel Deep Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3503> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3503> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3504> a ex:property ;
+	ex:propertyName "Hotel Scenaria" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3504> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3504> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3505> a ex:property ;
+	ex:propertyName "Ginger Hotel - Ahmedabad" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3505> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3505> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3518> a ex:property ;
+	ex:propertyName "Hotel Vibrant Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3518> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3518> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3523> a ex:property ;
+	ex:propertyName "Hotel Peace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3523> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3523> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3525> a ex:property ;
+	ex:propertyName "Hotel Akshar" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3525> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3525> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3528> a ex:property ;
+	ex:propertyName "Hotel Sai Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3528> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3528> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3530> a ex:property ;
+	ex:propertyName "Hotel Salute" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3530> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3530> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3548> a ex:property ;
+	ex:propertyName "Grand O7 Suites and Convention" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3548> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3548> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3549> a ex:property ;
+	ex:propertyName "Hotel Galaxy Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3549> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3549> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3555> a ex:property ;
+	ex:propertyName "Hotel Neelkanth Inn" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3555> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3555> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3556> a ex:property ;
+	ex:propertyName "Spectrum Aathithya Bunglow C G ROAD" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3556> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3556> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3564> a ex:property ;
+	ex:propertyName "Lemon Tree Premier The Atrium Ahmedabad" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3564> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3564> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3570> a ex:property ;
+	ex:propertyName "Spectrum Aathithya Apartment S G HIGHWAY 3" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3570> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3570> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3576> a ex:property ;
+	ex:propertyName "Gayatri Guest House" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3576> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3576> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3581> a ex:property ;
+	ex:propertyName "HOTEL ASHADEEP" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3581> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3581> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3585> a ex:property ;
+	ex:propertyName "Hotel Sagar Residency" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3585> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3585> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#3591> a ex:property ;
+	ex:propertyName "Rohini Service Apartment" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3591> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#3591> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#7999> a ex:property ;
+	ex:propertyName "Elis HospitalityTulip Gloria" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#7999> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#7999> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8005> a ex:property ;
+	ex:propertyName "Hotel Seven Karnavati Resort" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8005> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8005> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8013> a ex:property ;
+	ex:propertyName "Hotel Chatako" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8013> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8013> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8023> a ex:property ;
+	ex:propertyName "Spectrum Aathithya Bunglow S G HIGHWAY 2" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8023> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8023> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8027> a ex:property ;
+	ex:propertyName "HOTEL LONG STAY" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8027> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8027> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8029> a ex:property ;
+	ex:propertyName "Hotel Kanchan Palace" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8029> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8029> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8034> a ex:property ;
+	ex:propertyName "Akshar Service Apartment" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8034> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8034> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8053> a ex:property ;
+	ex:propertyName "Spectrum Aathithya Apartment S G HIGHWAY 3" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8053> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8053> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8055> a ex:property ;
+	ex:propertyName "GOKUL HOTEL RESORTS" ;
+	ex:situatedInArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8055> .
+
+ex:Ahmedabad ex:hasArea <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/area#8055> .

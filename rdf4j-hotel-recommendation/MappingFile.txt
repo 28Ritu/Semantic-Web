@@ -1,0 +1,42 @@
+===========================================================> Mapping File <====================================================================
+
+This is a mapping file between the CSV (makemytrip_com-travel_sample.csv) and the Ontology (Hotel_Recommendation_System.owl) which maps the column number/name in CSV to class/property in Ontology.
+
+*Keys represent column no. in csv.
+*Keys are 0-indexed.
+
+S.NO.		COLUMN NAME	[KEY]			=>			NAME OF CLASS/PROPERTY		DOMAIN		RANGE
+
+ 1.		property_name [22]		=>			propertyName		Property		String
+ 2.		property_id [21]			=>			propertyId		Property		UnsignedLong
+ 3.		property_address [20]		=>			propertyAddress		Property		String
+ 4.		property_type [23]		=>			propertyType		Property		String
+ 5.		uniq_id [32]			=>			uniqId		Property		String
+ 6.		country [2]		=>			countryName		Country		String
+ 7. 		state [30]		=>			stateName		State		String
+ 8.		city [1]		=>			cityName		City		String
+ 9. 		area [0]		=>			areaName		Area		String
+ 10. 		latitude [10]			=>			hasLatitude		Latitude		Double
+ 11.		longitude [11]			=>			hasLongitude		Longitude		Double
+ 12. 		image_urls [7]			=>			hasImageUrl		Image		URI
+ 13.		pageurl [19]			=>			hasPageUrl		Page		URI
+ 14.		sitename [29]		=>		siteName		Site		String
+ 15.		site_review_count [27]		=>		siteReviewCount		Site		Integer
+ 16.		site_review_rating [28]		=>		siteReviewRating		Site		Double
+ 17.		crawl_date [3]		=>		hasCrawlDate		SiteCrawl		Date		
+ 18.		qts [24]		=>		qts		SiteCrawl		DateTime
+ 19.		query_time_stamp [25]		=>		queryTimeStamp		SiteCrawl		DateTime
+ 20.		hotel_overview [5]		=>		highlightsOverview		PropertyHighlights		String
+ 21.		highlight_value [4]		=>		highlightValue		PropertyHighlights		String
+ 22.		is_value_plus [9]		=>		isValuePlus		PropertyHighlights		String
+ 23.		in_your_room [8]		=>		roomAccessories		PropertyHighlights		String
+ 24.		hotel_star_rating [6]		=>		starRating		PropertyHighlights		String
+ 25.		traveller_rating [31]		=>		travellerRating		PropertyHighlights		String
+ 26.		mmt_holidayiq_review_count [12]		=>		holidayReviewCount		ReviewAndRating		Integer
+ 27.		mmt_location_rating [13]		=>		locationRating		ReviewAndRating		Double
+ 28.		mmt_review_count [14]		=>		reviewCount		ReviewAndRating		Integer
+ 29.		mmt_review_rating [15]		=>		reviewRating		ReviewAndRating		String
+ 30.		mmt_review_score [16]		=>		reviewScore		ReviewAndRating		Double
+ 31.		mmt_tripadvisor_count [18]		=>		tripAdvisorCount		ReviewAndRating		Integer
+ 32.		mmt_traveller_type_review_count [17]		=>		hasTravellerReviewCount		TravellerType		Integer
+ 33.		room_types [26]		=>		roomInfo		RoomType		String

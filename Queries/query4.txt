@@ -1,0 +1,16 @@
+PREFIX ex: <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+CONSTRUCT 
+WHERE {
+	?s rdf:type ex:property;
+	   ex:propertyName ?name;
+	   ex:situatedInArea ?a .
+	?c rdf:type ex:city;
+	   ex:cityName ?n;
+	   ex:hasArea ?a .
+}
+LIMIT 604

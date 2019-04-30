@@ -1,0 +1,616 @@
+@prefix ex: <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12872> ex:propertyName "Hotel Beyond" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12872> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12872> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "0.0"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12883> ex:propertyName "Hotel Le Crescent - Ghaziabad" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12883> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12883> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "0.0"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12889> ex:propertyName "Ajay Guest House" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12889> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12889> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "0.0"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12944> ex:propertyName "Hotel The Rohit" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12944> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12944> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "0.0"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12957> ex:propertyName "Lotus Park" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12957> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12957> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "0.0"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12960> ex:propertyName "Hotel Classic Gurgaon" ;
+	ex:situatedInState ex:Haryana ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12960> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12960> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "0.0"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12963> ex:propertyName "The New Residency II Noida" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/Uttar Pradesh> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12963> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12963> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "0.0"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12893> ex:propertyName "Prem Sagar Guest House" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi And NCR> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12893> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12893> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "4.5"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12912> ex:propertyName "Palm D'or" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12912> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12912> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "3"^^xsd:int ;
+	ex:siteReviewRating "4.5"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12904> ex:propertyName "Hotel Raj Villa" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12904> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12904> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "4.7"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12932> ex:propertyName "Lotus Palace" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12932> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12932> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "4.7"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12911> ex:propertyName "Crowne Plaza Greater Noida" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12911> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12911> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "3"^^xsd:int ;
+	ex:siteReviewRating "4.6"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12895> ex:propertyName "Heritage Village Resort & Spa Manesar" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12895> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12895> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "2"^^xsd:int ;
+	ex:siteReviewRating "4.2"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12898> ex:propertyName "Ramada Gurgaon Central" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12898> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12898> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "26"^^xsd:int ;
+	ex:siteReviewRating "4.2"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12905> ex:propertyName "AT Residency" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/Uttar Pradesh> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12905> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12905> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "4.2"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12907> ex:propertyName "The Habitare, Gurgaon" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi and NCR> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12907> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12907> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "4.2"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12933> ex:propertyName "Avalon Courtyard Residences And Suites" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12933> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12933> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "5"^^xsd:int ;
+	ex:siteReviewRating "4.2"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12937> ex:propertyName "Treebo Palm Tree" ;
+	ex:situatedInState ex:Haryana ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12937> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12937> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "4.2"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12948> ex:propertyName "Hotel Golden Grand" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12948> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12948> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "1"^^xsd:int ;
+	ex:siteReviewRating "4.2"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12870> ex:propertyName "Moets Residency" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12870> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12870> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "4.4"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12946> ex:propertyName "Ginger Hotel-Manesar" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi and NCR> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12946> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12946> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "4"^^xsd:int ;
+	ex:siteReviewRating "4.4"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12954> ex:propertyName "Inn Tawang" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12954> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12954> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "4"^^xsd:int ;
+	ex:siteReviewRating "4.4"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12908> ex:propertyName "Hotel Pace" ;
+	ex:situatedInState ex:Haryana ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12908> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12908> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "4"^^xsd:int ;
+	ex:siteReviewRating "3.5"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12919> ex:propertyName "Hotel Castle Blue" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi and NCR> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12919> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12919> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "3"^^xsd:int ;
+	ex:siteReviewRating "3.5"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12906> ex:propertyName "Hotel Universe Inn" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12906> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12906> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "2"^^xsd:int ;
+	ex:siteReviewRating "2.9"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12899> ex:propertyName "Hotel Africa Avenue-South Delhi" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12899> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12899> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "3.3"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12918> ex:propertyName "Modesty Hotels - Mahipalpur" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12918> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12918> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "0"^^xsd:int ;
+	ex:siteReviewRating "3.3"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12927> ex:propertyName "Pablas International" ;
+	ex:situatedInState ex:Haryana ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12927> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12927> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "4"^^xsd:int ;
+	ex:siteReviewRating "3.3"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12894> ex:propertyName "Amar Inn" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/NEW DELHI> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12894> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12894> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "3.0"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12881> ex:propertyName "Hotel Maharaja Residency" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12881> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12881> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "0"^^xsd:int ;
+	ex:siteReviewRating "4.1"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12913> ex:propertyName "Hotel Singh Sahib" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12913> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12913> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "4.1"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12926> ex:propertyName "FabHotel Mohan International Paharganj" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12926> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12926> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "19"^^xsd:int ;
+	ex:siteReviewRating "4.1"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12949> ex:propertyName "Hotel Royal Paradise" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12949> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12949> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "4.1"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12934> ex:propertyName "Hotel High 5 Land" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12934> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12934> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "4.0"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12935> ex:propertyName "The Park New Delhi" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12935> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12935> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "62"^^xsd:int ;
+	ex:siteReviewRating "4.0"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12885> ex:propertyName "Divine inn" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12885> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12885> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "3.7"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12887> ex:propertyName "Clarks Inn Kailash Colony" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12887> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12887> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "5"^^xsd:int ;
+	ex:siteReviewRating "3.7"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12892> ex:propertyName "The Grand Olive" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/Uttar Pradesh> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12892> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12892> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "4"^^xsd:int ;
+	ex:siteReviewRating "3.7"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12900> ex:propertyName "Hotel Shimla Heritage" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12900> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12900> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "3"^^xsd:int ;
+	ex:siteReviewRating "3.7"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12902> ex:propertyName "Piccadily Hotel New Delhi" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi And NCR> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12902> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12902> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "60"^^xsd:int ;
+	ex:siteReviewRating "3.7"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12909> ex:propertyName "The Golden Gate Residency - Sector-52" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/Uttar Pradesh> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12909> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12909> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "3.7"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12930> ex:propertyName "Hotel Sunrise Blue" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12930> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12930> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "4"^^xsd:int ;
+	ex:siteReviewRating "3.7"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12931> ex:propertyName "Hotel Le Cadre" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12931> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12931> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "3.7"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12952> ex:propertyName "Shervani New Delhi" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12952> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12952> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "3"^^xsd:int ;
+	ex:siteReviewRating "3.7"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12929> ex:propertyName "Hotel Impress" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12929> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12929> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "3"^^xsd:int ;
+	ex:siteReviewRating "4.3"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12939> ex:propertyName "Hotel Bill Palace" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12939> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12939> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "4.3"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12942> ex:propertyName "Hotel Sri Nanak Continental" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12942> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12942> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "0"^^xsd:int ;
+	ex:siteReviewRating "4.3"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12945> ex:propertyName "The Ashtan Sarovar Portico" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12945> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12945> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "1"^^xsd:int ;
+	ex:siteReviewRating "4.3"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12953> ex:propertyName "Home@F37" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12953> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12953> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "0"^^xsd:int ;
+	ex:siteReviewRating "4.3"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12882> ex:propertyName "Hotel TJS Royale" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12882> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12882> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "2"^^xsd:int ;
+	ex:siteReviewRating "3.4"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12888> ex:propertyName "The Eden Hotel" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12888> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12888> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "3.4"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12896> ex:propertyName "Trinity Art Hotel" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12896> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12896> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "2"^^xsd:int ;
+	ex:siteReviewRating "3.4"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12914> ex:propertyName "Hotel The RTS" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12914> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12914> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "2"^^xsd:int ;
+	ex:siteReviewRating "3.4"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12964> ex:propertyName "Prem Deluxe Guest House" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12964> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12964> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "3.4"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12890> ex:propertyName "The Pearl - A Royal Residency" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12890> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12890> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "25"^^xsd:int ;
+	ex:siteReviewRating "3.6"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12922> ex:propertyName "Hotel Balsons Continental" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12922> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12922> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "0"^^xsd:int ;
+	ex:siteReviewRating "3.6"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12951> ex:propertyName "Hotel Jukaso Inn Down Town" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi And NCR> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12951> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12951> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "4"^^xsd:int ;
+	ex:siteReviewRating "3.6"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12867> ex:propertyName "Golden Huts" ;
+	ex:situatedInState ex:Haryana ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12867> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12867> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "3.8"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12868> ex:propertyName "Pitrashish Grand & Premium" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12868> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12868> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "7"^^xsd:int ;
+	ex:siteReviewRating "3.8"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12869> ex:propertyName "Hotel Sands Inn Gurgaon" ;
+	ex:situatedInState ex:Haryana ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12869> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12869> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "4"^^xsd:int ;
+	ex:siteReviewRating "3.8"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12878> ex:propertyName "Emblem Hotel New Friends Colony" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12878> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12878> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "2"^^xsd:int ;
+	ex:siteReviewRating "3.8"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12886> ex:propertyName "Hotel Le Seasons" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12886> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12886> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "3"^^xsd:int ;
+	ex:siteReviewRating "3.8"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12897> ex:propertyName "Hotel Luck Residency" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi NCR> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12897> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12897> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "9"^^xsd:int ;
+	ex:siteReviewRating "3.8"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12910> ex:propertyName "Global Inn Hotel" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12910> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12910> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "3.8"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12938> ex:propertyName "Kanak Garden Resorts" ;
+	ex:situatedInState ex:Haryana ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12938> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12938> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "3.8"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12940> ex:propertyName "IBIS Gurgaon" ;
+	ex:situatedInState ex:Haryana ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12940> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12940> ex:siteName "makemytrip" ;
+	ex:siteReviewCount "5"^^xsd:int ;
+	ex:siteReviewRating "3.8"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12950> ex:propertyName "Beyond Hospitality" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12950> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12950> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "3.1"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12877> ex:propertyName "Hotel Anand Lok" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12877> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12877> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "3.2"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12923> ex:propertyName "Hotel Freesia" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12923> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12923> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "3.2"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12879> ex:propertyName "Royal Nest" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/New Delhi> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12879> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12879> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "2.3"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12956> ex:propertyName "Metro Plaza" ;
+	ex:situatedInState ex:Delhi ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12956> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#12956> ex:siteName "makemytrip" ;
+	ex:siteReviewCount ""^^xsd:int ;
+	ex:siteReviewRating "2.3"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#2182> ex:propertyName " 103 km rom Bagrakot Railway Station and 700m from bus stand. The hotel is in close proximity to various tourist attraction like Sikkim Flower Show (900 m)" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/ car hire> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#2182> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#2182> ex:siteName " dinning hall" ;
+	ex:siteReviewCount "WiFi"^^xsd:int ;
+	ex:siteReviewRating " internet facility"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#4307> ex:propertyName " 103 km rom Bagrakot Railway Station and 700m from bus stand. The hotel is in close proximity to various tourist attraction like Sikkim Flower Show (900 m)" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/ car hire> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#4307> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#4307> ex:siteName " dinning hall" ;
+	ex:siteReviewCount "WiFi"^^xsd:int ;
+	ex:siteReviewRating " internet facility"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9353> ex:propertyName " Garh Palace" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/ spacious parking> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#9353> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#9353> ex:siteName " travel desk" ;
+	ex:siteReviewCount "Railway Station and 2.5 km from Kovalam Junction. The resort overlooks a serene and peaceful area of the palm-fringed Kovalam Beach. For the comfortable stay facilities at the resort include front desk"^^xsd:int ;
+	ex:siteReviewRating " currency exchange"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9394> ex:propertyName " Room No S-8" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/ Kanheri Caves(23.1 km)> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#9394> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#9394> ex:siteName " Aksa Beach(21.5 km)" ;
+	ex:siteReviewCount "Hotel Regal Residency is located at a distance of 400 m from the Sahar International Airport"^^xsd:int ;
+	ex:siteReviewRating " 6.2 km from the Vile Parle Railway Station and 5.6 km from the Vile Parle Station Bus Stand. The popular tourist spots like Shree Siddhivinayak Temple(15.8 km)"^^xsd:double .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#14452> ex:propertyName " Adsurlim" ;
+	ex:situatedInState <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/ the hotel ensures that it gives its guests a real memorable experience. The multi-cuisine restaurant of the hotel has a perfect setting where guests can enjoy scrumptious regional> ;
+	ex:associatedSite <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#14452> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/site#14452> ex:siteName " it also provides slippers and free toiletries. Every room at this hotel is equipped with a flat-screen TV and air condition. With a range of facilities to offer and supported by an army of ever smiling and courteous staff" ;
+	ex:siteReviewCount "Airport Hotel Galaxy is about a 10 km drive from Rashtrapati Bhavan and 12 km drive from India Gate. Mahipalpur is a great choice for travelers interested in monuments"^^xsd:int ;
+	ex:siteReviewRating " food and sightseeing. The presence of IGI Airport within short distance makes the hotel suitable for transit travelers. Well-maintained and spacious rooms available at the property are complete with modern amenities. Some rooms include a seating area. Each room is equipped with a private bathroom. For your comfort"^^xsd:double .

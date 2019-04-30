@@ -1,0 +1,318 @@
+@prefix ex: <http://www.semanticweb.org/ontologies/2019/hotel-recommendation/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#27> a ex:property ;
+	ex:propertyName "Hotel Suman Palace" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "ec377a9baa290b158958c4c0fb30643e" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#31> a ex:property ;
+	ex:propertyName "Hotel Ajanta Haveli" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "80cf5ec53403e97bdd1844ed2be5cfb5" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#2010> a ex:property ;
+	ex:propertyName "Hotel Jessul Kot" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "046f68fa153dced7ae95307413940c4d" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#2012> a ex:property ;
+	ex:propertyName "The Chirag Desert Camp" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "3e5bfc05880342d368b01324d4fb0cdc" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#4135> a ex:property ;
+	ex:propertyName "Hotel Jessul Kot" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "046f68fa153dced7ae95307413940c4d" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#4137> a ex:property ;
+	ex:propertyName "The Chirag Desert Camp" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "3e5bfc05880342d368b01324d4fb0cdc" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#4494> a ex:property ;
+	ex:propertyName "Shiva Guest House" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "f6b53a1894ca72f5bd0d2cd2b47bca6b" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#4921> a ex:property ;
+	ex:propertyName "Desert Springs Resort" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "5ea34f991a06098aa802268c59557c4b" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#4946> a ex:property ;
+	ex:propertyName "Hotel Jeet Mahal" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "4c679d7e5eb9c4386b862fc74994b003" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#6571> a ex:property ;
+	ex:propertyName "Hotel Sona" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "0cf748951b83a84957efa4f6501df510" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#6580> a ex:property ;
+	ex:propertyName "Hotel Desert Tulip" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "1167d73612d8a89f9ccc607866525378" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#6588> a ex:property ;
+	ex:propertyName "Desert Safariors Camps" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "15129ed005fe6e20a673ac1eeb47497f" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#6594> a ex:property ;
+	ex:propertyName "Nomads Guest House" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "10c94c01956a8de54ad3c03fc4841285" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#6595> a ex:property ;
+	ex:propertyName "The Golden House" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "259a1027a5f0a7d151717be6b64e8d94" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#6598> a ex:property ;
+	ex:propertyName "Mool Raj Sagar" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "1f1ec77595ffa7a83fdb47e954bd1f96" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#6602> a ex:property ;
+	ex:propertyName "Hotel Moonlight" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "b92178ce58ef811b9aea46d5444f714e" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#6604> a ex:property ;
+	ex:propertyName "Desert Dream Royal Camp" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "a9533b75aca379803b5f8cb5fc685658" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#6614> a ex:property ;
+	ex:propertyName "Hotel Jeet Mahal" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "13e68aa7df7d4eea097a41c10754bc07" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#6615> a ex:property ;
+	ex:propertyName "Hotel Poonam Palace, Ramdevra" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "01d3f223b23917cb836706e429b99236" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#6618> a ex:property ;
+	ex:propertyName "Desert Safari Planner Exclusive Campsite Real Camping" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "bef1e7a892aeacfb64980a536125fa98" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#6621> a ex:property ;
+	ex:propertyName "Hotel Kunjal Haveli" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "5bdbb5321f59535bb6f339b7ea4dc84b" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#7113> a ex:property ;
+	ex:propertyName "Gorbandh Palace" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "8b875c4231db295c26c164ad469ad184" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#7115> a ex:property ;
+	ex:propertyName "Hotel Maru Palace" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "e683c48976075c61cf01829e5e8037b4" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#7117> a ex:property ;
+	ex:propertyName "Hotel Desert Queen" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "ad3dd471e95c4b96ced9896ad72d26b2" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#7228> a ex:property ;
+	ex:propertyName "Hotel Gorakh Haveli" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "530ca1a45bbcbdf72675a09a9c477ef5" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#7336> a ex:property ;
+	ex:propertyName "Hotel Heritage House" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "40dbea33703f6c2bf7996c2635ee57a9" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#7361> a ex:property ;
+	ex:propertyName "Castle View Jaisalmer" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "4b17235d218bbb9bbfc9e7492411ef84" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8574> a ex:property ;
+	ex:propertyName "Mahadev Palace" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "cb11c0c668981350d08c07515649fc95" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8621> a ex:property ;
+	ex:propertyName "Chokhi Dhani The Palace" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "b9c94e863cd907d033e923ddb02cd175" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#8632> a ex:property ;
+	ex:propertyName "Hotel Bharat Villas" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "6508a8f2e55db6870cd611340411471b" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9024> a ex:property ;
+	ex:propertyName "Royal Camps Sam" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "93752a8c0be8c8a91a9f9d85b2e86fb7" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9029> a ex:property ;
+	ex:propertyName "Hotel Poonam Palace, Ramdevra" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "2833effb1cce65f17968a80113d20acb" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9043> a ex:property ;
+	ex:propertyName "Hotel Registhan Guest House" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "d74788a6d30c1dca1e175452a01f6341" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9060> a ex:property ;
+	ex:propertyName "Hotel Helsinki House" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "5bdb829697e2f743e7569a22254bc129" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#9061> a ex:property ;
+	ex:propertyName "Hotel Jaisal Palace" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "70cb0d18668d6d5f8a5fa53efe429d8e" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11702> a ex:property ;
+	ex:propertyName "Hotel City Heart" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "6387263283af7f715624bdb4e8d25217" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11707> a ex:property ;
+	ex:propertyName "Hotel Victoria" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "e9461494547c7c7d57b9d1d412082914" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11756> a ex:property ;
+	ex:propertyName "Shree Govindam Desert Camp" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "08acf2a09b2fa5fa5fbf25d6ba9b4dbb" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11768> a ex:property ;
+	ex:propertyName "Hotel Golden Haveli" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "0fa53afa1f908a97aa8745186f777d69" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11772> a ex:property ;
+	ex:propertyName "Hotel Satkar and Sudarshan" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "e4045620eec49ffe7c41e8f913f0891c" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#11773> a ex:property ;
+	ex:propertyName "Hotel Maru Palace" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "28feedbd28dc49a27a08e12b98c8f04b" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12482> a ex:property ;
+	ex:propertyName "Gangaur Desert Resort" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "c5342b81ddb3b038d341e836547c510c" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12540> a ex:property ;
+	ex:propertyName "Desert Adventure Camps and Safari" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "4091acc8b37578e0cc2ed9a38fad5931" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12544> a ex:property ;
+	ex:propertyName "Hotel Golden Haveli" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "ef0bfac1ef1d654263458a62e20d00e3" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#12547> a ex:property ;
+	ex:propertyName "Hotel Rana Villa" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "1325f02d5d17e8536144b8dff6afbb05" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13593> a ex:property ;
+	ex:propertyName "The Golden Camp" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "a23da45e4f361c1aab455e1c309e2638" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13600> a ex:property ;
+	ex:propertyName "Hotel Mannat Excellency" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "ca0983a566dbb31b4ccd7ea24e202d21" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13603> a ex:property ;
+	ex:propertyName "Nomads Guest House" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "e98c6da965ebfcfbe6277436dbd8b9c0" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13609> a ex:property ;
+	ex:propertyName "Hotel Amit Mahal" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "ad0e85080cf25c1a68315455b331ac2f" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13619> a ex:property ;
+	ex:propertyName "Salim Dunes Camp Sam" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "29d7e5dbed83b4fe0ff2a3e8808c95f4" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13624> a ex:property ;
+	ex:propertyName "Hotel Akash Deep" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "8b1bb9c9928ce87c30a376b8948697f1" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13631> a ex:property ;
+	ex:propertyName "Hotel Sanjay Villas" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "17f262305f1fb305e7e70d503b38d5ed" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13640> a ex:property ;
+	ex:propertyName "Hotel Pansari Palace" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "95d262097cfe9704a587b45d36ccab2d" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13654> a ex:property ;
+	ex:propertyName "Royal Camps Sam" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "faa02db10eda242f4bbd8acb7178b093" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13657> a ex:property ;
+	ex:propertyName "Himmatgarh Palace" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "2d3c27e242920d1e5fdea456b172e875" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13659> a ex:property ;
+	ex:propertyName "Madhav Desert Camp" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "5e4be15762648e9ecd438347a9f7e3a9" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13660> a ex:property ;
+	ex:propertyName "Spirit Desert Camp" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "6922d1c05ec60e51181400cea9850048" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13661> a ex:property ;
+	ex:propertyName "ABU Safari" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "0d08c1d65aa0ac167ee4325ec7b9828e" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13664> a ex:property ;
+	ex:propertyName "Nirmal Haveli By Geo Stays" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "17a94d8f22aceafd07020f8094479105" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13667> a ex:property ;
+	ex:propertyName "Hotel Raj International" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "0bb2b73a73cd35ce67a15c4e88885265" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13676> a ex:property ;
+	ex:propertyName "Hotel Heera Court" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "3c6773f098815985ecf22a1e133f0abe" .
+
+<http://www.semanticweb.org/ontologies/2019/hotel-recommendation/property#13683> a ex:property ;
+	ex:propertyName "Chandani Desert Resort Camp Khuri" ;
+	ex:situatedInCity ex:Jaisalmer ;
+	ex:uniqId "c2187477354bcd290910921cee136e02" .
